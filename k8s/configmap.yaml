@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: azure-aks-demo-config
+data:
+  APP_NAME: "Azure AKS DevOps Project"
+  ENVIRONMENT: "dev"
+  LOG_LEVEL: "INFO"
