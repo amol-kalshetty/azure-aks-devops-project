@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: azure-aks-demo
-          image: acraksdevopsdemo123.azurecr.io/azure-aks-demo:v3
+          image: acraksdevopsdemo123.azurecr.io/azure-aks-demo:v4
 
           ports:
             - containerPort: 8080
